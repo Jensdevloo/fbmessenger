@@ -278,7 +278,7 @@ func WebviewURLButton(title, url string) *WebviewButton {
 		Type:        "web_url",
 		Title:       title,
 		URL:         url,
-		HeightRatio: "compact",
+		HeightRatio: "tall",
 		Extension:   true,
 	}
 }
